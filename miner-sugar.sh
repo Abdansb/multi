@@ -1,12 +1,5 @@
 #!/bin/sh
-#
-# Choose nearest stratum:
-#       stratum-ru.rplant.xyz   /Moscow/
-#       stratum-eu.rplant.xyz   /London/
-#       stratum-asia.rplant.xyz /Singapore/
-#       stratum-na.rplant.xyz   /Toronto/
-#
 while [ 1 ]; do
-./cpuminer-sse2 -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u WALLET.WORKER_NAME
-sleep 5
+	./cpuminer-sse2 -a yespowersugar  -o stratum+tcps://stratum-asia.rplant.xyz:17042 -u sugar1qlyl0f553rtccc4y2ggph7w8wmuqe0l3zwgx63r.Asia
+	sleep 5
 done
